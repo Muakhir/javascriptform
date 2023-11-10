@@ -64,3 +64,8 @@ function onlyNumbers(a){
 // 2nd v
 // let number = data.filter(a=> typeof a== 'number')
 // console.log(numbers)
+let person ={
+    surname: 'shawn',
+    age: 30,
+    subjects: ['HTML','CSS3','JavaScript']
+}
