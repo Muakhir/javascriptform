@@ -16,29 +16,29 @@
 // console.log(data)
 // console.log(`Array's size: ${data.length}`)
 // console.log(`Element at postion 3: ${data[3]}`)
-// //return the last element .at
-// //portion would be .slice instead of .at
-// //push add element from the right
+ //return the last element .at
+ //portion would be .slice instead of .at
+ //push add element from the right
 // data.push('Matthew')
-// // console.log(data.at(-1))
+ // console.log(data.at(-1))
 // data.push('Shawn', 'Simamkele')
-// //adds element from the beginning of the list
+ //adds element from the beginning of the list
 // data.unshift('Jay-donn')
-// //pop remove the last element
+ //pop remove the last element
 // let RemoveLastElement = data.pop()
 // console.log(data);
 // console.log(RemoveLastElement);
-// //to add 2 arrays together
-// //console.log(data.concat(RemoveLastElement));
-// //.shift removes the first array value
+ //to add 2 arrays together
+ //console.log(data.concat(RemoveLastElement));
+ //.shift removes the first array value
 // data.shift()
 // console.log(data);
-// //reverse order but index number stay in numeric order
-// //slice from one index to the next used by comma so from 1 to 4 index 1,2,3 and 4
+ //reverse order but index number stay in numeric order
+//slice from one index to the next used by comma so from 1 to 4 index 1,2,3 and 4
 // console.log(data.slice(1, 4))
 // console.log(data)
-// // 0- adding
-// // 1- remove an element from postion
+ // 0- adding
+ // 1- remove an element from postion
 // data.splice(2, 0, 'Joel')
 // console.log(data)
 //exercise
@@ -50,22 +50,49 @@
 // numbers.splice(4,2)
 // console.log(numbers)
 //reverse
-let data = [7,3,'Abc',1,'abc']
+// let data = [7,3,'Abc',1,'abc']
 // console.log(numbers);
 // console.log(numbers.reverse());
 //sorting from lowest to highest
 // console.log(numbers.sort());
-let numbers = data.filter(onlyNumbers)
+// let numbers = data.filter(onlyNumbers)
 // named function or function declaration
-function onlyNumbers(a){
-    return typeof a == 'number'
-}
- console.log(numbers)
+// function onlyNumbers(a){
+//     return typeof a == 'number'
+// }
+//  console.log(numbers)
 // 2nd v
 // let number = data.filter(a=> typeof a== 'number')
 // console.log(numbers)
-let person ={
-    surname: 'shawn',
-    age: 30,
-    subjects: ['HTML','CSS3','JavaScript']
+// let person ={
+//     surname: 'shawn',
+//     age: 30,
+//     subjects: ['HTML','CSS3','JavaScript']
+// }
+
+// loops
+
+// for(let i=0; i <=20; i++){
+//     if(i % 2 ==0)console.log(i)
+// else
+//     console.log(`${i} is an odd number`);
+// }
+
+// for(let i=0; i<=20;i++){
+//     console.log( i % 2 == 0 ? i : 'odd')
+// }
+
+// for(let i=0; i <=20; i+=2){
+//     console.log(i);
+// }
+
+for(let i=0; i<=10;i++){
+    console.log(i)
+    if(i==5){
+        // skip
+        continue
+    }
 }
+
+let numbers = [12, 18, 11, 5, 8, 2];
+  
