@@ -86,13 +86,99 @@
 //     console.log(i);
 // }
 
-for(let i=0; i<=10;i++){
-    console.log(i)
-    if(i==5){
-        // skip
-        continue
-    }
-}
+// for(let i=0; i<=10;i++){
+//     console.log(i)
+//     if(i==5){
+            // skip
+//         continue
+//     }
+// }
 
-let numbers = [12, 18, 11, 5, 8, 2];
+// let numbers = [12, 18, 11, 5, 8, 2];
   
+
+
+// while loop
+
+// let cnt =0
+// while(cnt<=10){
+//     console.log(cnt);
+    // If we dont have the below code it will produce an infinite loop
+//     cnt++;
+// }
+
+let numbers = [12,18,12,11,5,18,2,8,2];
+// for(let i =0; i<numbers.length; i++){
+//     console.log
+//     (`${i} => ${numbers[i]}`);
+// }
+// numbers.forEach((number)=>{
+//     console.log(number);
+// })
+
+// numbers.forEach(display)
+// function display(number){
+//     console.log(number)
+// }
+// numbers.forEach((number,i)=>{
+//     console.log(number,i);
+// })
+// evan number with for each
+// numbers.forEach((numbers,i) =>{
+//     if(numbers % 2 ==0)
+//     console.log(numbers,i);
+// })
+
+// for in
+// for(let i in numbers){
+//     console.log(i);
+// }
+
+// for of
+// for(let number of numbers){
+//     console.log(number)
+// }
+
+// challenge
+// let unique =[]
+// numbers.forEach((number)=>{
+//     if(!unique.includes(number)){
+//         unique.push(number)
+//     }
+// })
+// console.log(unique)
+
+// console.log(Array.from(new Set(numbers)));
+
+
+// function constName(Firstname){
+//     console.log(`First name is ${Firstname || `Al-Mu'akhir`}`)
+// }
+// constName()
+// constName("Damon")
+
+// anonymous function or function 
+// let test=function(numb1, numb2){
+//     return numb1 +numb2
+// }
+// console.log(test(2,8))
+
+(function (numb1, numb2){
+    console.log(numb1 + numb2)
+})(3,4)
+
+// function challenge
+
+function repeat(limit) {
+    let cnt = 1;
+    while (cnt <= limit) {
+      console.log(cnt);
+      cnt++;
+    }
+  }
+  repeat(10);
+
+//   Challenge
+
+let greeting = " Hello World "
+console.log(greeting.trim().split(""))
