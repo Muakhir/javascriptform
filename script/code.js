@@ -181,4 +181,34 @@ function repeat(limit) {
 //   Challenge
 
 let greeting = " Hello World "
-console.log(greeting.trim().split(""))
+console.log(greeting.trim().split(``))
+
+// Literal object
+console.log("Object literal");
+let person = {
+    firstName: 'Joel',
+    lastName: 'Mukanya'
+}
+console.log(person);
+console.log("Object.create()");
+let smartPhone = Object.create(
+    {
+        make: "Samsung",
+        model: "A 51"
+    }
+)
+console.log(smartPhone);
+console.log("new keyword | Object constructor");
+let computer = new Object({
+    brand: "Dell",
+    amount: 18000
+})
+console.log(computer);
+
+
+
+
+
+
+
+
