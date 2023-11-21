@@ -318,22 +318,35 @@ console.log(car4);
  let name = "muakhir"
   console.log(name.charAt(3))
 // - endsWith()
-  let text = "i come from a place far away"
-  console.log(text.endsWith("ay"));
+  // let text = "i come from a place far away"
+  // console.log(text.endsWith("ay"));
 // - includes()
 let tex = "my name is muakhir jones"
 console.log(tex.includes(name))
 // - lastIndexOf()
+// let text = "my name muakhir jones"
+// console.log(text.lastIndexOf('m'));
 // - indexOf()
+console.log(tex.indexOf('m'))
 // - replace()
+console.log(tex.replace('muakhir','Almuakhir'))
 // - repeat()
+console.log(tex.repeat(2));
 // - startWith()
+console.log(tex.startsWith('m'));
 // - subString()
+console.log(tex.substring(10));
 // - trim()
+console.log(tex.trim(''))
 // - trimEnd()
+console.log(tex.trimEnd(''))
 // - trimStart()
+console.log(tex.trimStart(''))
 // - slice()
+console.log(tex.slice(1,-1));
 // - split()
+console.log(tex.split(''))
+
 
 
 // map and reduce
